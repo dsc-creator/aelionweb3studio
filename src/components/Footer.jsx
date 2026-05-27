@@ -6,10 +6,17 @@ export default function Footer() {
       <div className="container">
         <div className="footer-top">
           <div className="footer-brand">
+<<<<<<< HEAD
             <a href="#" className="footer-brand-logo">
               <img src={logoImg} alt="Aelion Studio" className="footer-logo-img" />
               <div className="footer-logo">AelionStudio</div>
             </a>
+=======
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 14 }}>
+              <img src={logoImg} alt="Aelion Studio" style={{ width: 36, height: 36, borderRadius: '50%', objectFit: 'cover' }} />
+              <div className="footer-logo">AelionStudio</div>
+            </div>
+>>>>>>> 106ce11afd55bcc20d26774aea6361db84acd2e8
             <p className="footer-desc">Building premium digital experiences for startups, ecommerce brands, and modern businesses worldwide.</p>
             <div className="footer-socials">
               {['𝕏', 'in', '📸', '✈️', '▶'].map((s, i) => (
@@ -49,7 +56,11 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
+<<<<<<< HEAD
           <div className="footer-copy">© 2026 Aelion Studio. All rights reserved.</div>
+=======
+          <div className="footer-copy">© 2025 Aelion Studio. All rights reserved.</div>
+>>>>>>> 106ce11afd55bcc20d26774aea6361db84acd2e8
           <div className="footer-bottom-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>

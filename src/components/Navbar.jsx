@@ -15,6 +15,10 @@ export default function Navbar() {
 
   return (
     <>
+<<<<<<< HEAD
+=======
+      {/* Mobile Menu */}
+>>>>>>> 106ce11afd55bcc20d26774aea6361db84acd2e8
       <div className={`mobile-menu${menuOpen ? ' open' : ''}`}>
         <button className="menu-close" onClick={closeMenu}>✕</button>
         <a href="#services" onClick={closeMenu}>Services</a>

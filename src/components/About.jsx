@@ -1,5 +1,3 @@
-import logoImg from '../assets/logo.jpeg'
-
 const highlights = [
   { icon: '⚡', title: 'Performance First', text: '99+ Lighthouse scores. Sub-2s load times. Your users feel the difference.' },
   { icon: '🎯', title: 'Conversion Driven', text: 'Every design decision is rooted in psychology and data to maximize revenue.' },
@@ -15,12 +13,7 @@ export default function About() {
       <div className="container">
         <div className="about-grid">
           <div className="about-img-wrap reveal">
-            <div className="about-img">
-              <div className="about-logo-display">
-                <img src={logoImg} alt="Aelion Studio" className="about-logo-img" />
-                <div className="about-logo-label">Aelion Studio</div>
-              </div>
-            </div>
+            <div className="about-img">👤</div>
             <div className="about-badge-float">
               <div className="fc-label">Client Satisfaction</div>
               <div className="fc-value purple">98%</div>
